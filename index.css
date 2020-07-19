@@ -1,6 +1,7 @@
 body {
   background-color: peru;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -8,4 +9,13 @@ body {
 h1 {
   color: white;
   font-size: 100px;
+}
+
+.form,
+.grettings {
+  display: none;
+}
+
+.showing {
+  display: block;
 }
