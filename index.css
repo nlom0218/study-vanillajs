@@ -1,15 +1,11 @@
 body {
   background-color: peru;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
   color: white;
-  transition: color 0.5s ease-in-out;
-}
-.btn {
-  cursor: pointer;
-}
-
-.clicked {
-  color: #7f8c8d;
+  font-size: 100px;
 }
