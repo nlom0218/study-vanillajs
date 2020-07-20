@@ -14,8 +14,43 @@ h1 {
 .form,
 .grettings {
   display: none;
+  margin: 0px;
 }
 
 .showing {
   display: block;
 }
+
+.grettings {
+  font-size: 30px;
+  color: white;
+}
+
+.form input {
+  font-size: 22px;
+  padding: 10px;
+  text-align: center;
+  outline: none;
+  border: 1px solid white;
+  border-radius: 15px;
+}
+
+/*.form input:focus {
+  animation: float 2s ease-in-out infinite forwards;
+}
+.grettings {
+  animation: float 2s ease-in-out infinite forwards;
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+
+  50%{
+    transform: translateY(-15px); 
+  }
+ 
+  100% {
+    transform: translateY(0px);
+}*/
