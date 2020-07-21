@@ -10,9 +10,9 @@ body {
 .js-clock {
   background-color: black;
   margin: 100px 0px 50px 0px;
-  padding: 0px 100px;
+  padding: 30px 150px;
   opacity: 0.7;
-  border-radius: 50px;
+  border-radius: 80px;
 }
 
 .js-clock h1 {
@@ -120,4 +120,11 @@ body {
   height: 100%;
   z-index: -1;
   animation: fadeIn 0.5s linear;
+}
+
+.weather {
+  position: absolute;
+  right: 30px;
+  top: 30px;
+  font-weight: 700;
 }
